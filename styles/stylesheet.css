@@ -1,0 +1,40 @@
+/*
+  COLOR SCHEME:
+  * COLOR 1 -
+  * COLOR 2 -
+  * COLOR 3 -
+  * COLOR 4 -
+*/
+
+body {
+  font-size: 1em;
+  font-weight: normal;
+  font-family: arial, sans-serif;
+  color: #000000; /* black */
+  text-align: left;
+  background-color:  #aa80ff;
+  font-family: cursive;
+}
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #DEC04D; /* blue */
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+
+}
+
+a {
+
+}
+
+li {
+
+}
+
+p {
+  font-size: 1.2em;
+}
