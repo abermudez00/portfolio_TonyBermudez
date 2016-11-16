@@ -1,9 +1,9 @@
 /*
   COLOR SCHEME:
-  * COLOR 1 -
-  * COLOR 2 -
-  * COLOR 3 -
-  * COLOR 4 -
+  * COLOR 1 -#DEC04D
+  * COLOR 2 -#000000
+  * COLOR 3 -yellow
+  * COLOR 4 -#aa80ff
 */
 
 body {
@@ -14,6 +14,8 @@ body {
   text-align: left;
   background-color:  #aa80ff;
   font-family: cursive;
+  max-width: 75%;
+  margin: 0 auto;
 }
 h1 {
   font-size: 1.8em;
@@ -24,11 +26,14 @@ h1 {
 }
 
 h2 {
-
+font-size: 1.7em;
+font-weight: 200;
+color: #DEC04D;
+text-shadow: 2px 2px black;
 }
 
 a {
-
+font-weight: bold;
 }
 
 li {
@@ -37,4 +42,7 @@ li {
 
 p {
   font-size: 1.2em;
+  font-weight: 600;
+  color: #000000;
+  text-shadow: 2px 1px yellow;
 }
