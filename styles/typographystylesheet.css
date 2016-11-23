@@ -1,5 +1,7 @@
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
+/* Place this at the very top of your typographystyles.css document */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 /* Do not change this style */
 .rectangle {
   font-family: "Helvetica";
@@ -74,17 +76,22 @@ letter-spacing: 6px;
 
    /* Change this style */
    #biggerText {
+     font-size: 1.5em;
+     margin: 5em 5em;
+     max-width: 25%;
+     
 
    }
 
    /* Change this style */
    .indent {
+     font-size: 1.9em;
+     margin: 2em 2em;
+     max-width: 0 auto;
 
    }
 
-   /* Place this at the very top of your typographystyles.css document */
 
-   @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
    /* Place these styles towards the bottom of your typographystyles.css document */
 
@@ -95,20 +102,26 @@ letter-spacing: 6px;
 
    #weight1 {
      /* Change the font-weight property to give it a thin-weight */
+    font-weight: 100;
    }
 
    #weight2 {
      /* Change the font-weight property to give it a light-weight */
+     font-weight: 300;
+
    }
 
    #weight3 {
      /* Change the font-weight property to give it a regular-weight */
+     font-weight: 400;
    }
 
    #weight4 {
      /* Change the font-weight property to give it a bold-weight */
+     font-weight: 600;
    }
 
    #weight5 {
      /* Change the font-weight property to give it a ultra-bold-weight */
+     font-weight:900;
    }
