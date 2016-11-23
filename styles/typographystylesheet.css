@@ -54,6 +54,9 @@ letter-spacing: 6px;
    http://www.w3schools.com/cssref/pr_text_text-align.asp */
    text-align: justify;
 }
+#center{
+  text-align: center;
+}
    /*** HIERARCHY ASSIGNMENT STYLES ***/
 
    /* Do not change this style */
@@ -79,7 +82,8 @@ letter-spacing: 6px;
      font-size: 1.5em;
      margin: 5em 5em;
      max-width: 25%;
-     
+     height: 280px;
+
 
    }
 
@@ -124,4 +128,23 @@ letter-spacing: 6px;
    #weight5 {
      /* Change the font-weight property to give it a ultra-bold-weight */
      font-weight:900;
+   }
+
+   /*
+     POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
+     * Use two different typefaces (a serif and a sans-serif)
+     * Use at least three different font-sizes
+     * Use a color that contrasts with the background image
+         * Recommended to use the text-shadow property to increase contrast
+     * Use a hierarchy that emphasizes the most important words
+         * Font size, font weight, logical grouping, orientation
+     */
+
+   #grandCanyon {
+     background-image: url('../images/grand_canyon.jpg');
+     background-size: cover;
+     background-position: center center;
+     height: 500px;
+     width: 800px;
+     margin: 0 auto;
    }
