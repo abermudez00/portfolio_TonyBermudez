@@ -35,6 +35,8 @@ letter-spacing: 6px;
 .align {
   max-width: 80%;
   margin: 1em auto;
+  font-weight: normal;
+  text-shadow: none;
 }
 
 #left_align {
@@ -75,22 +77,18 @@ letter-spacing: 6px;
      font-size: 1.1em;
      margin: 2em 4em;
      max-width: 55%;
+     font-weight: normal;
+     text-shadow: none;
    }
 
    /* Change this style */
    #biggerText {
      font-size: 1.5em;
-     margin: 5em 5em;
-     max-width: 25%;
-     height: 280px;
-
-
    }
 
    /* Change this style */
    .indent {
-     font-size: 1.9em;
-     margin: 2em 2em;
+     margin: 4em 6em;
      max-width: 0 auto;
 
    }
@@ -148,3 +146,20 @@ letter-spacing: 6px;
      width: 800px;
      margin: 0 auto;
    }
+#title {
+  font-size: 3em;
+  width: 50%;
+  line-height: 1;
+  text-align: center;
+  /*border: 2px solid red;*/
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+#detail{
+color: yellow;
+text-shadow: 2px 2px black;
+text-align: center;
+padding-top: 5%;
+line-height: 1;
+}
